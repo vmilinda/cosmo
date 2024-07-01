@@ -532,7 +532,17 @@ li a{
 
 @media screen and (max-width: 475px){
     .card .img img{
-        width: 300px;
+        width: 250px;
+    }
+    .wrapper .slider{
+        gap: 35px;
+    }
+    .wrapper{
+        margin-left: 39px;
+    }
+    .wrapper .product{
+        font-size: 35px;
+        margin-left: -39px;
     }
 }
 
@@ -706,8 +716,8 @@ body .btn:hover{
 .col-md-6 .card-texts{
     font-weight: 500;
     font-size: 17px;
-    text-align: left;
     margin-top: -20px;
+    text-justify: auto;
 }
 
 .card.mmb-3.cd{
@@ -735,4 +745,12 @@ body .btn:hover{
     border: none;
     margin-top: 150px;
     margin-bottom: 80px;
+}
+
+@media screen and (max-width:770px){
+    .col-md-6 .card-texts{
+        padding-top: 25px;
+        font-weight: 700 ;
+        text-align: center;
+    }
 }
