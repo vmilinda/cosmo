@@ -131,3 +131,18 @@ window.addEventListener('scroll', () => {
         navEl.classList.remove('navbar-scrolled');
     }
 });
+
+// scroll animation 
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.product, .card-titles, .text-area h1, .heading', { origin: 'top' });
+ScrollReveal().reveal('.cardd, .button1', { origin: 'bottom' });
+ScrollReveal().reveal('.card-text', { origin: 'left' });
+
+

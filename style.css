@@ -391,13 +391,13 @@ li a{
     font-weight: 600;
     font-size: 20px;
 }
-.row .card{
+.row .cardd{
     border: none;
     margin-top: 30px;
     background-color: transparent;
 }
 
-.card .card-img-top{
+.cardd .card-img-top{
     border-radius: 20px;
 }
 
